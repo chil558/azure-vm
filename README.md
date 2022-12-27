@@ -2,7 +2,7 @@
 <img src="https://i.imgur.com/qC1tQB4.png" alt="osTicket logo"/>
 </p>
 
-<h1>osTicket - Prerequisites and Installation</h1>
+<h1>Creating a Virtual Machine With Azure</h1>
 This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
 
 
@@ -12,7 +12,6 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
-- Internet Information Services (IIS)
 
 <h2>Operating Systems Used </h2>
 
@@ -32,7 +31,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <img src="https://i.imgur.com/gZcxi4X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Install osTicket v1.15.8
+Navigate to portal.azure.com
+
+Select Virtual Machines->Create->Azure Virtual Machine 
 
 - Download osTicket
 - Extract and copy the “upload” folder INTO c:\inetpub\wwwroot
