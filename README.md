@@ -19,13 +19,11 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>List of Prerequisites</h2>
 
-- Create a virtual machine within Azure (Optional)
-- Install Microsoft Web Platform Installer
-  -  Add MySQL 5.5
-  - Add All simple versions of x86 PHP up until 7.3
+- Create a microsoft account
+- Create a subscription in Azure
 
 
-<h2>Installation Steps</h2>
+<h2>Creation Steps</h2>
 
 <p>
 <img src="https://i.imgur.com/gZcxi4X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -35,21 +33,6 @@ Navigate to portal.azure.com
 
 Select Virtual Machines->Create->Azure Virtual Machine 
 
-- Download osTicket
-- Extract and copy the “upload” folder INTO c:\inetpub\wwwroot
-- Within c:\inetpub\wwwroot, Rename “upload” to “osTicket
-</b>
-
-Reload IIS
-
-Go to sites -> Default -> osTicket
-
-On the right, click “Browse *:80”
-
-Go back to IIS, sites -> Default -> osTicket
-
-Double-click PHP Manager
-
 </p>
 <br />
 
@@ -58,35 +41,16 @@ Double-click PHP Manager
 </p>
 <p>
 
-Double-click PHP Manager
-  
-Click “Enable or disable an extension
+Select new resource group
 
-- Enable: php_intl.dll
-- Enable: php_opcache.dll
-</b>
+Name: AzureVm
 
-Refresh the osTicket site in your browse, observe the changes
+   - Username: labuser
+   - Password: Passoword1
 
-Rename C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-Assign Permissions: ost-config.php
+Windows 10
 
-- Disable inheritance -> Remove All
-- New Permissions -> Everyone -> All
-</b>
-
-Continue Setting up osTicket in the browser (click Continue)
-
-Name Helpdesk
-
-Default email (receives email from customers)
-
-Download and Install HeidiSQL
-
-- Create a new session, root/Password1
-- Connect to the session
-- Create a database called “osTicket”
 </b>
 
 </p>
@@ -97,18 +61,27 @@ Download and Install HeidiSQL
 </p>
 <p>
   
-Continue Setting up osticket in the browser
+navigate to virtual machines
 
-- MySQL Database: osTicket
-- MySQL Username: root
-- MySQL Password: Password1
+select AzureVM
+
+copy the Publib IP Address
+
+Open remote desktop from the windows start menu
+
+paste the IP address of AzureVM 
+
+Select more choices 
+
+Enter the user name and password
+
+
+   - Username: labuser
+   - Password: Passoword1
+
+Select Ok!
+
+
 </b>
-
-Click “Install Now!”
-
-Delete: C:\inetpub\wwwroot\osTicket\setup
-
-Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-
 </p>
 <br />
