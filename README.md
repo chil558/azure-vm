@@ -26,7 +26,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Creation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/gZcxi4X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/qtNkBs6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Navigate to portal.azure.com
@@ -37,7 +37,7 @@ Select Virtual Machines->Create->Azure Virtual Machine
 <br />
 
 <p>
-<img src="https://i.imgur.com/gZcxi4X.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/3D7CbjV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -51,13 +51,14 @@ Name: AzureVm
 
 Windows 10
 
+Review and Create-> Review
 </b>
 
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/usBTEie.png" height="75%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
   
@@ -66,6 +67,8 @@ navigate to virtual machines
 select AzureVM
 
 copy the Publib IP Address
+
+<img src="https://i.imgur.com/E9Dx3LM.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 
 Open remote desktop from the windows start menu
 
@@ -81,6 +84,9 @@ Enter the user name and password
 
 Select Ok!
 
+<img src="https://i.imgur.com/crCp2Lh.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+
+A new windows 10 desktop will open!
 
 </b>
 </p>
